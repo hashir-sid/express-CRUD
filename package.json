@@ -1,0 +1,36 @@
+{
+  "name": "express-crud",
+  "version": "1.0.0",
+  "description": "express crud",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashir-sid/express-CRUD.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "ejs"
+  ],
+  "author": "hashir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashir-sid/express-CRUD/issues"
+  },
+  "homepage": "https://github.com/hashir-sid/express-CRUD#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^8.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
